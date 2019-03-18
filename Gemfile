@@ -6,5 +6,6 @@ group "plugins" do
   gem "redcarpet"
   gem "pygments.rb"
   gem "jekyll-gist"
-  gem "github-pages", group: :jekyll_plugins
+  gem "jekyll-font-awesome-sass"
+  # gem "github-pages", group: :jekyll_plugins
 end
