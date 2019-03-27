@@ -18,12 +18,18 @@ author:
   name:           'Javier Peralta'
   url:            https://twitter.com/nottu1990
 
-paginate:         5
+paginate_multiple:
+  - paginate: 3
+    paginate_path: '/page:num/'
+    sub_dir: '/general'
+  - paginate: 3
+    paginate_path: '/papers/page:num/'
+    sub_dir: '/papers'
 
 # Custom vars
 version:          2.1.0
 
-plugins:          [jekyll-paginate, jekyll-gist]
+plugins:          [jekyll-paginate, jekyll-gist, jekyll-paginate-multiple]
 
 github:
   repo:           https://github.com/nottu/nottu.github.io

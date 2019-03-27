@@ -7,5 +7,6 @@ group "plugins" do
   gem "pygments.rb"
   gem "jekyll-gist"
   gem "jekyll-font-awesome-sass"
-  # gem "github-pages", group: :jekyll_plugins
+  gem "jekyll-paginate-multiple" #allow multiple blogs!
+  gem "github-pages", group: :jekyll_plugins
 end
