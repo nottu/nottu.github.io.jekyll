@@ -8,5 +8,5 @@ group "plugins" do
   gem "jekyll-gist"
   gem "jekyll-font-awesome-sass"
   gem "jekyll-paginate-multiple" #allow multiple blogs!
-  gem "github-pages", group: :jekyll_plugins
+  # gem "github-pages", group: :jekyll_plugins
 end
