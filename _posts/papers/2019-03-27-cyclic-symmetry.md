@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploiting Cyclic Symmetry in Convolutional Neural Networks
+use_math: true
 excerpt_separator: <!--more-->
 ---
 
