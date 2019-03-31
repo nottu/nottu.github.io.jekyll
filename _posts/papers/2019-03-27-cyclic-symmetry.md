@@ -3,6 +3,7 @@ layout: post
 title: Exploiting Cyclic Symmetry in Convolutional Neural Networks
 use_math: true
 excerpt_separator: <!--more-->
+tags: [CNN, 'rotation-equivariant', 'rotation-invariant']
 ---
 
 [Source](https://arxiv.org/abs/1602.02660)
